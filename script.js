@@ -25,7 +25,7 @@ CPFValidate.prototype.validate = function () {
     }
 
     if(cpf.length !== 11) {
-        console.log('O CPF precisa ter 11 caracteres')
+        console.log('O CPF precisa ter 11 números')
         return false
     }
 
